@@ -7,7 +7,7 @@ View the site here: https://chirpradio.github.io/
 - [Documentation for Github Pages](https://docs.github.com/en/pages)
 - [Documentation for Jekyll](https://jekyllrb.com/docs/), the Ruby-based static site generating language that the wiki is built on. NOTE: Not all Jekyll functionality works on Github Pages.
 - [Documentation for Just The Docs](https://just-the-docs.com/), the specific gem template the wiki is using
-- [Markdown Cheat Sheet] (https://www.markdownguide.org/cheat-sheet/)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## How to Contribute
 
