@@ -34,6 +34,7 @@ plugins:
 logo: "/assets/images/CHIRP_Logo_FM URL_horizontal_600.png"
 favicon_ico: "/assets/images/chirp_icon_bird.png"
 
+# Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
@@ -68,5 +69,13 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 nav_external_links:
   - title: CHIRP Radio on GitHub
     url: https://github.com/chirpradio
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true
+  - title: Dev Team Trello Board
+    url: https://trello.com/b/B1L4W9A9/dev-projects
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true
+  - title: Dev Team Slack
+    url: https://chirpdev.slack.com/archives/C01GSPCEDMK
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true
