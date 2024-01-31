@@ -13,4 +13,4 @@ Some things to consider adding:
 - Languages used
 - How to get added to the listserv and Slack instance
 - How to access the calendar of meeting dates
-- Any process-specific things of note
+- Any process-specific things of note, like a common deploy process that is defined for all apps
