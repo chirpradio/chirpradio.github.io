@@ -29,6 +29,11 @@ github_username:  chirpradio
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.8.0"
+
 plugins:
   - jekyll-feed
 logo: "/assets/images/CHIRP_Logo_FM URL_horizontal_600.png"
