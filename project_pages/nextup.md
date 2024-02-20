@@ -31,7 +31,7 @@ flowchart TB
 ### Topic: "playlist-event"
 The NextUp API added a track to the playlist, updated a track on the playlist, or deleted a track from the playlist
 
-#### Message
+#### Message data
 
 | Field Name   | Type            | Description |
 |:-------------|:----------------|:------------|
@@ -51,12 +51,12 @@ The NextUp API added a track to the playlist, updated a track on the playlist, o
 ### Topic: "playlist-track-processed"
 The track data has been enriched and can be used by later steps without querying the Datastore
 
-#### Message
+#### Message data
 
 | Field Name   | Type            | Description |
 |:-------------|:----------------|:------------|
 | action       | String          | "added", "updated", or "deleted"  |
-| track        | [PlaylistEvent](https://github.com/chirpradio/nextup/blob/develop/app/models/playlistevent.model.js)   | The plain JSON output of the PlaylistEvent entity from the Datastore. Keys *have* been replaced with the entities they reference (e.g., the `artist` value is an object with details on the artist).  |
+| track        | [PlaylistEvent](https://github.com/chirpradio/nextup/blob/develop/app/models/playlistevent.model.js)   | The plain JSON output of the PlaylistEvent entity from the Datastore. If the track is added or updated, keys *have* been replaced with the entities they reference (e.g., the `artist` value is an object with details on the artist).  |
 
 #### Subscriber(s)
 - updatePlaylistStorage 
@@ -66,13 +66,13 @@ The track data has been enriched and can be used by later steps without querying
 ### Topic: "playlist-storage-updated"
 The JSON feed that lists the track playing now and the five most recently played tracks before it has been updated.
 
-#### Message
+#### Message data
 _a passthrough of the "playlist-track-processed" message_
 
 | Field Name   | Type            | Description |
 |:-------------|:----------------|:------------|
 | action       | String          | "added", "updated", or "deleted"  |
-| track        | [PlaylistEvent](https://github.com/chirpradio/nextup/blob/develop/app/models/playlistevent.model.js)   | The plain JSON output of the PlaylistEvent entity from the Datastore. Keys *have* been replaced with the entities they reference (e.g., the `artist` value is an object with details on the artist).  |
+| track        | [PlaylistEvent](https://github.com/chirpradio/nextup/blob/develop/app/models/playlistevent.model.js)   | The plain JSON output of the PlaylistEvent entity from the Datastore. If the track is added or updated, keys *have* been replaced with the entities they reference (e.g., the `artist` value is an object with details on the artist).  |
 
 #### Subscriber(s)
 - notifyLiveSite: calls endpoints at chirpradio.org that prompt it to retrieve the latest version of playlist.json from the Cloud Storage bucket
