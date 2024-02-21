@@ -18,11 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CHIRP Radio Dev Wiki
+title: CHIRP Radio Tech Wiki
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A hub for all things related to the CHIRP Tech Team.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  chirpradio
@@ -76,11 +74,11 @@ nav_external_links:
     url: https://github.com/chirpradio
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true
-  - title: Dev Team Trello Board
+  - title: Tech Team Trello Board
     url: https://trello.com/b/B1L4W9A9/dev-projects
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true
-  - title: Dev Team Slack
+  - title: Tech Team Slack
     url: https://chirpdev.slack.com/archives/C01GSPCEDMK
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true
