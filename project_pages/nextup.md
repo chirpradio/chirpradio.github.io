@@ -40,7 +40,7 @@ Current Functionality Includes:
 NextUp is written in Vue.js/Javascript, and uses Elasticsearch. The app is hosted on Google Cloud.
 A recording from our 2024 meeting "NextUp Demo and Q&A" can be found in Slack [here](https://chirpdev.slack.com/archives/C01GSPCEDMK/p1706757506383289).
 
-## How To Contribute
+# How To Contribute
 * Instructions for setting up for local development can be found [here](https://github.com/chirpradio/nextup/blob/develop/setup.md).
 * Check out the backlog in [Trello](https://trello.com/b/B1L4W9A9/dev-projects) for a list of unassigned tasks tagged "NextUp" that are waiting to be worked on.
 

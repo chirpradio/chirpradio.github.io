@@ -38,7 +38,7 @@ Current Functionality Includes:
 The CHIRP Radio App is written in Python 2.7 using Django 1.2.5. The app is hosted on Google Cloud.
 A recording from our 2024 meeting "Legacy DJ App 101 and Demo" can be found in Slack [here](https://chirpdev.slack.com/archives/C01GSPCEDMK/p1705978509222069).
 
-## How To Contribute
+# How To Contribute
 * This app is not currently taking feature requests, since it's being replaced.
 * Instructions for setting up for local development can be found [here](https://chirpradio.readthedocs.io/en/latest/index.html).
 * Check out the backlog in [Trello](https://trello.com/b/B1L4W9A9/dev-projects) for a list of unassigned tasks tagged "Legacy" that are waiting to be worked on.
