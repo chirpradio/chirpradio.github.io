@@ -24,7 +24,7 @@ parent: Active Projects
 * [Github Repo](https://github.com/chirpradio/nextup)
 * Slack Channel: [#proj-nextup](https://chirpdev.slack.com/archives/C01GW3BRV5H)
 * [Dev Instance](https://nextup-dot-chirpradiodev.appspot.com/login?redirect=%2Flibrary)
-* Production Instance
+* [Production Instance](https://nextup.chirpradio.org/)
 * [API Documentation](https://nextup-dot-chirpradiodev.appspot.com/api)
 
 ## What is NextUp?
