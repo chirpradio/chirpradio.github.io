@@ -79,7 +79,7 @@ The NextUp API added a track to the playlist, updated a track on the playlist, o
 #### Subscriber(s)
 {: .no_toc }
 
-- processPlaylistTrack
+- [processPlaylistTrack](https://github.com/chirpradio/cloud-functions/tree/main/process-playlist-track)
   - checks LastFM for images it can add to the PlaylistEvent entity
   - retrieves the details of related objects from the NextUp database for the benefit of later steps in the pipeline
     - album
@@ -104,7 +104,7 @@ The track data has been enriched and can be used by later steps without querying
 #### Subscriber(s)
 {: .no_toc }
 
-- updatePlaylistStorage 
+- [updatePlaylistStorage](https://github.com/chirpradio/cloud-functions/tree/main/update-playlist-storage)
   - builds and saves the public JSON feed of recently played tracks to a Cloud Storage bucket
   - publishes a message to the "playlist-storage-updated" topic
 
@@ -125,4 +125,4 @@ _a passthrough of the "playlist-track-processed" message_
 
 #### Subscriber(s)
 {: .no_toc }
-- notifyLiveSite: calls endpoints at chirpradio.org that prompt it to retrieve the latest version of playlist.json from the Cloud Storage bucket
+- [notifyLiveSite](https://github.com/chirpradio/cloud-functions/tree/main/notify-live-site): calls endpoints at chirpradio.org that prompt it to retrieve the latest version of playlist.json from the Cloud Storage bucket
