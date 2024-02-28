@@ -30,6 +30,6 @@ The CHIRP Radio Machine is a set of support scripts that were originally created
 The Stream  Archiver is written in Python 2.7, and runs from Google App Engine using Virtualenv. Imports are run by SSH-ing into a server in the studio and running scripts under the musiclib user.
 
 # How To Contribute
-* Check out the backlog in [Trello](https://trello.com/b/B1L4W9A9/dev-projects) for a list of unassigned tasks tagged "Stream archiver" that are waiting to be worked on.
+* Check out the backlog in [Trello](https://trello.com/b/B1L4W9A9/dev-projects) for a list of unassigned tasks that are waiting to be worked on.
 * Instructions for setting up and running the scripts can be found [here](https://github.com/chirpradio/chirpradio-machine)
 * You may also need a server admin to grant you permissions to run scripts under the musiclib user on the studio server.
