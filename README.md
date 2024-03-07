@@ -36,6 +36,31 @@ This is best for major changes, adding new pages, or adding functionality.
 5. When finished, commit and push changes to Github. Changes pushed to the main branch will publish to the site automatically. If you commit to a new branch, you will need to open a pull request for the changes and merge it into main for your changes to be published.
 6. Navigate to the page you updated to check over your changes and ensure everything is working correctly. Please note, changes may take up to ten minutes to appear on the site.
 
+##### Using Docker Compose
+
+1. Setup docker in your local environment. [Tutorial: Try Docker Compose](https://docs.docker.com/compose/gettingstarted/)
+2. Clone this repo
+3. From the root of this project, run this command in your cli: `docker compose up`
+You should see an output similar to this:
+
+```
++] Running 1/0
+ ✔ Container chirpradiogithubio-jekyll-1  Created                                                                                                                                                                                                                       0.0s Attaching to jekyll-1
+jekyll-1  | ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86_64-linux-musl]
+jekyll-1  | Configuration file: /srv/jekyll/_config.yml
+jekyll-1  |             Source: /srv/jekyll
+jekyll-1  |        Destination: /srv/jekyll/_site
+jekyll-1  |  Incremental build: disabled. Enable with --incremental
+jekyll-1  |       Generating...
+jekyll-1  |       Remote Theme: Using theme just-the-docs/just-the-docs
+jekyll-1  |        Jekyll Feed: Generating feed for posts
+jekyll-1  |                     done in 3.285 seconds.
+jekyll-1  |  Auto-regeneration: enabled for '/srv/jekyll'
+jekyll-1  |     Server address: http://0.0.0.0:4000/
+jekyll-1  |   Server running... press ctrl-c to stop.
+```
+4. Navigate to `localhost:4000` in your browser to see the wiki. All changes made in the code can should be visible on the corresponding page with a simple page refresh.
+
 ## Troubleshooting
 
 **Q: I pushed some changes to main, but they're not showing up on the site. What gives?!**
