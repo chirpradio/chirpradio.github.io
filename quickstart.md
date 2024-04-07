@@ -56,10 +56,8 @@ Being a volunteer organization, folks on the team tend to work on the projects t
 	- Cards that have been researched and are ready for active work will be moved into the "To-Do" column. Whoever is assigned to the card can move it to the "Doing" column when they begin working on it.
 5. Code Review Phase
 	- Please make all changes in a separate branch on Github, and open a pull request to the appropriate repo. Once a pull request is open, head into the code-review channel in Slack and request someone to review your code. It's best practice here to have at least one other person review your code and approve it before the code is merged into main.
-6. Testing Phase
-	- This is an optional phase in Trello. If you require someone to test your changes, or if you want user feedback before deploying them, the card gets moved here.
-7. Done
-	- Congratulations, the task is complete!
+6. Done
+	- Congratulations, the task is complete! Don't forget to hit that "Done" button in the Trello card.
 
 ### How do I request a new feature or report a bug?
 Some CHIRP apps, like NextUp, have a section to submit feedback directly to the Tech Team. In the absence of that, please reach out to the Tech department head via email. If you're a member of the team and you want to work on a particular new feature or fix a bug you found, go right ahead! Although you might want to ping in Slack first to make sure nobody is already working on the same thing.
