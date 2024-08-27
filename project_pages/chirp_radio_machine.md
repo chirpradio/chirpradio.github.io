@@ -2,7 +2,7 @@
 layout: page
 title: CHIRP Radio Machine
 permalink: /chirp_radio_machine/
-nav_order: 4
+nav_order: 5
 parent: Active Projects
 ---
 

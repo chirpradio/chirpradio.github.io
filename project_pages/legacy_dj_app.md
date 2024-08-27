@@ -2,7 +2,7 @@
 layout: page
 title: CHIRP Radio App (aka "Legacy DJ Database App")
 permalink: /legacy_dj_app/
-nav_order: 2
+nav_order: 4
 parent: Active Projects
 ---
 

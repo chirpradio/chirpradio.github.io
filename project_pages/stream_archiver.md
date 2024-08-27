@@ -2,7 +2,7 @@
 layout: page
 title: Stream Archiver
 permalink: /stream_archiver/
-nav_order: 3
+nav_order: 6
 parent: Active Projects
 ---
 
