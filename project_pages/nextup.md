@@ -31,10 +31,11 @@ parent: Active Projects
 NextUp is the successor to the [Legacy DJ Database app](legacy_dj_app.md). When it launches, it will be used by all CHIRP DJs and Music Department staff to perform essential tasks related to our music metadata library, including vital on-air tasks.
 
 Current Functionality Includes:
-* CRUD, search, and tagging/sorting functionality for album metadata in the music database
-* Save albums to personalized crates
-* Push song metadata to the on-air playlist
-* View DJ Traffic Log (the schedule of promos and station information that must be read on-air by the DJs)
+* CRUD (Create/Read/Update/Delete), search, and tagging functionality for album metadata in the music database
+* Save an organize albums within personalized crates
+* Queue and push song metadata to the on-air playlist
+* DJ Traffic Log (the schedule of promos and station information that must be read on-air by the DJs)
+* Some basic reporting functionality for the music database
 
 ## Tech Specs
 NextUp is written in Vue.js/Javascript, and uses Elasticsearch. The app is hosted on Google Cloud.
